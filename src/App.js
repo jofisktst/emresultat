@@ -21,17 +21,17 @@ const correctAnswers = {
   "Kroatien - Albanien": "x",
   "Tyskland - Ungarn": 1,
   "Skotland - Schweiz": "x",
-  "Slovenien - Serbien": "3",
-  "Danmark - England": "3",
-  "Spanien - Italien": "3",
-  "Slovakiet - Ukraine": "3",
-  "Polen - Østrig": "3",
-  "Holland - Frankrig": "3",
-  "Georgien - Tjekkiet": "3",
-  "Tyrkiet - Portugal": "3",
-  "Belgien - Rumænien": "3",
-  "Schweiz - Tyskland": "3",
-  "Skotland - Ungarn": "3",
+  "Slovenien - Serbien": "x",
+  "Danmark - England": "x",
+  "Spanien - Italien": 1,
+  "Slovakiet - Ukraine": 2,
+  "Polen - Østrig": 2,
+  "Holland - Frankrig": "x",
+  "Georgien - Tjekkiet": "x",
+  "Tyrkiet - Portugal": 2,
+  "Belgien - Rumænien": 1,
+  "Schweiz - Tyskland": "x",
+  "Skotland - Ungarn": 2,
   "Albanien - Spanien": "3",
   "Kroatien - Italien": "3",
   "Frankrig - Polen": "3",
@@ -157,7 +157,7 @@ function App() {
   return (
     <div className="App">
       <h1>EM 2024 stilling</h1>
-      <h3>Opdateret 19/06 efter dagens kampe</h3>
+      <h3>Opdateret 23/06 efter dagens kampe</h3>
       <ul>
         {scores.map((user, index) => (
           <li key={index} className="user-item">
