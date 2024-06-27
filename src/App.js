@@ -32,16 +32,16 @@ const correctAnswers = {
   "Belgien - Rumænien": 1,
   "Schweiz - Tyskland": "x",
   "Skotland - Ungarn": 2,
-  "Albanien - Spanien": "3",
-  "Kroatien - Italien": "3",
-  "Frankrig - Polen": "3",
-  "Holland - Østrig": "3",
-  "Danmark - Serbien": "3",
-  "England - Slovenien": "3",
-  "Slovakiet - Rumænien": "3",
-  "Ukraine - Belgien": "3",
-  "Georgien - Portugal": "3",
-  "Tjekkiet - Tyrkiet": "3"
+  "Albanien - Spanien": 2,
+  "Kroatien - Italien": "x",
+  "Frankrig - Polen": "x",
+  "Holland - Østrig": 2,
+  "Danmark - Serbien": "x",
+  "England - Slovenien": "x",
+  "Slovakiet - Rumænien": "x",
+  "Ukraine - Belgien": "x",
+  "Georgien - Portugal": 1,
+  "Tjekkiet - Tyrkiet": 2
 };
 
 const userAnswers = [
@@ -157,7 +157,7 @@ function App() {
   return (
     <div className="App">
       <h1>EM 2024 stilling</h1>
-      <h3>Opdateret 23/06 efter dagens kampe</h3>
+      <h3>Opdateret efter gruppespillet</h3>
       <ul>
         {scores.map((user, index) => (
           <li key={index} className="user-item">
