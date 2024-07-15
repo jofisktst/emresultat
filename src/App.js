@@ -3,9 +3,9 @@ import './App.css';
 
 const correctAnswers = {
   "name": "Admin",
-  "guld": "..",
-  "sølv": "..",
-  "bronze": ["..", ".."],
+  "guld": "Spanien",
+  "sølv": "England",
+  "bronze": ["Holland", "Frankrig"],
   "Tyskland - Skotland": 1,
   "Ungarn - Schweiz": 2,
   "Spanien - Kroatien": 1,
@@ -156,8 +156,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>EM 2024 stilling</h1>
-      <h3>Opdateret efter gruppespillet</h3>
+      <h1>EM 2024 resultat</h1>
+     
       <ul>
         {scores.map((user, index) => (
           <li key={index} className="user-item">
